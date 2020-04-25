@@ -58,7 +58,7 @@ llukkah - using this CSS section code messes with the styling of the about secti
         background-color: #F0ECE0;
         font-family: 'Abel', sans-serif;
         font-size: 24px;
-        color: 101010;
+        color: #101010;
         text-align: center;
 }
 .about-p {
@@ -66,6 +66,56 @@ llukkah - using this CSS section code messes with the styling of the about secti
 }
 .about-visit {
         margin-top: 30px;
+}
+.highlights-category {
+        font-family: 'Abel', sans-serif;
+        font-size: 40px;
+        color: #101010;
+        border: 2px solid red;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        background-color: white;
+        /* position: absolute; */
+        top: 40%;
+        left: 10%;
+        transform: translate(30%, -10%);
+      
+}
+.highlights-photo {
+        height: 225px;
+        width: 800px;
+}
+.highlights-photo img {
+        height: 225px;
+        width: 800px;
+        object-position: 50% 50%;
+        object-fit: cover;
+}
+.quotes {
+        font-family: 'Abel', sans-serif;
+        font-size: 26px;
+        color: #101010;
+        border: 2px solid blueviolet;
+        width: 600px;
+}
+.quotations {
+        font-family: 'Scheherazade', serif;
+        font-size: 50px;
+        color: #101010;
+        border: 2px solid green;
+}
+.highlights-right {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+}
+.highlights-left {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        align-items: center;
 }
 #menu {
         background-color: blue;
