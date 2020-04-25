@@ -43,12 +43,29 @@ main {
         margin-top: 3%;
 }
 
-section {
+/* section {
         height: 70vh;
+} 
+llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
+.hero img {
+        width: 100%;
+        max-width: 1200px;
+        height: 100%;
+        margin-top: 50px;
 }
 #about {
        
-        background-color: yellow;
+        background-color: #F0ECE0;
+        font-family: 'Abel', sans-serif;
+        font-size: 24px;
+        color: 101010;
+        text-align: center;
+}
+.about-p {
+        padding: 70px 50px;
+}
+.about-visit {
+        margin-top: 30px;
 }
 #menu {
         background-color: blue;
