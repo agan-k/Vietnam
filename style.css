@@ -1,9 +1,59 @@
+html {
+        scroll-behavior: smooth;
+      }
 body {
+        width: 76%;
+        padding-top: 6%;
+        margin: 0 auto;
+        /* background-color: grey; */
         font-family: 'Abel', sans-serif;
 
 }
 
 header {
+        display: flex;
+        justify-content: space-between;
+        
+        
+}
+header h1 {
+        /* margin-right: .5em; */
+        color: #B62222;
         font-family: 'Black Han Sans', sans-serif;
+        text-transform: uppercase;
+        font-size: 75px;
+        font-weight: 100;
+        letter-spacing: .2em;
+}
+nav {
+        height: 50px;
+        margin-top: 28px;
+        font-family: 'Abel', sans-serif; 
+        text-transform: uppercase;
+        font-size: 36px;
+        letter-spacing: 0em;
 
+}
+nav a {
+        text-decoration: none;
+        color: #101010;
+        padding: .3em;
+}
+main {
+        margin-top: 3%;
+}
+
+section {
+        height: 70vh;
+}
+#about {
+       
+        background-color: yellow;
+}
+#menu {
+        background-color: blue;
+}
+#footer {
+        height: 100vh;
+        background-color: red ;
 }
