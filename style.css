@@ -74,7 +74,7 @@ llukkah - using this CSS section code messes with the styling of the about secti
         color: #101010;
         padding: 20px;
         width: 250px;
-        text-align: center;
+        text-align: right;
         background-color: white;
         top: 40%;
         left: 10%;
@@ -89,13 +89,13 @@ llukkah - using this CSS section code messes with the styling of the about secti
         color: #101010;
         padding: 20px;
         width: 250px;
-        text-align: center;
+        text-align: left;
         background-color: white;
         top: 40%;
         right: 10%;
         transform: translate(-30%, 0%);
 }
-.highlights-noddle-soups {
+.highlights-noodle-soups {
         margin-top: 50px;
 }
 .highlights-rice-dishes,
@@ -117,7 +117,6 @@ llukkah - using this CSS section code messes with the styling of the about secti
         font-family: 'Abel', sans-serif;
         font-size: 26px;
         color: #101010;
-        border: 2px solid blueviolet;
         width: 600px;
 }
 .quotations {
@@ -138,6 +137,22 @@ llukkah - using this CSS section code messes with the styling of the about secti
         flex-direction: row-reverse;
         justify-content: flex-end;
         align-items: center;
+}
+
+.highlights-desserts .reviews-left,
+.highlights-rice-dishes .reviews-left {
+        text-align: center;
+        margin-left: 100px;
+
+}
+
+.highlights-noodle-soups .reviews-right,
+.highlights-sandwiches .reviews-right {
+        text-align: center;
+        margin-left: 100px;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 100px;
 }
 #menu {
         background-color: blue;
