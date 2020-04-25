@@ -67,20 +67,41 @@ llukkah - using this CSS section code messes with the styling of the about secti
 .about-visit {
         margin-top: 30px;
 }
-.highlights-category {
+
+.highlights-category-right {
         font-family: 'Abel', sans-serif;
         font-size: 40px;
         color: #101010;
-        border: 2px solid red;
         padding: 20px;
         width: 250px;
         text-align: center;
         background-color: white;
-        /* position: absolute; */
         top: 40%;
         left: 10%;
         transform: translate(30%, -10%);
       
+}
+
+
+.highlights-category-left {
+        font-family: 'Abel', sans-serif;
+        font-size: 40px;
+        color: #101010;
+        padding: 20px;
+        width: 250px;
+        text-align: center;
+        background-color: white;
+        top: 40%;
+        right: 10%;
+        transform: translate(-30%, 0%);
+}
+.highlights-noddle-soups {
+        margin-top: 50px;
+}
+.highlights-rice-dishes,
+.highlights-sandwiches,
+.highlights-desserts {
+        margin-top: 30px;
 }
 .highlights-photo {
         height: 225px;
@@ -111,6 +132,7 @@ llukkah - using this CSS section code messes with the styling of the about secti
         justify-content: flex-end;
         align-items: center;
 }
+
 .highlights-left {
         display: flex;
         flex-direction: row-reverse;
