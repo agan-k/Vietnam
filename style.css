@@ -120,6 +120,7 @@ llukkah - using this CSS section code messes with the styling of the about secti
 .quotations {
         font-family: 'Scheherazade', serif;
         font-size: 50px;
+        font-weight: 700;
         color: #101010;
         border: 2px solid green;
 }
