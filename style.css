@@ -1,9 +1,42 @@
 body {
-        font-family: 'Abel', sans-serif;
-
+  font-family: "Abel", sans-serif;
 }
 
 header {
-        font-family: 'Black Han Sans', sans-serif;
+  font-family: "Black Han Sans", sans-serif;
+}
 
+.menu-link-container {
+  display: flex;
+  width: auto;
+  position: relative;
+  justify-content: center;
+}
+
+.menu-link {
+  width: 477px;
+  height: 133.5px;
+  background-color: #f0ece0;
+}
+
+footer {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 477px;
+  height: 190.5px;
+  background-color: #b62222;
+}
+
+.branch-container {
+  width: 100%;
+}
+
+.branch {
+  width: 5.8px;
+  height: 190.5px;
+  
 }
