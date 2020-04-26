@@ -1,161 +1,195 @@
 html {
-        scroll-behavior: smooth;
-      }
-body {
-        width: 76%;
-        padding-top: 6%;
-        margin: 0 auto;
-        /* background-color: grey; */
-        font-family: 'Abel', sans-serif;
+  scroll-behavior: smooth;
+}
 
+body {
+  font-family: "Abel", sans-serif;
+  width: 76%;
+  padding-top: 6%;
+  margin: 0 auto;
+  /* background-color: grey; */
 }
 
 header {
-        display: flex;
-        justify-content: space-between;
-        
-        
+  display: flex;
+  justify-content: space-between;
+  font-family: "Black Han Sans", sans-serif;
 }
+
 header h1 {
-        /* margin-right: .5em; */
-        color: #B62222;
-        font-family: 'Black Han Sans', sans-serif;
-        text-transform: uppercase;
-        font-size: 75px;
-        font-weight: 100;
-        letter-spacing: .2em;
+  /* margin-right: .5em; */
+  color: #b62222;
+  font-family: "Black Han Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 75px;
+  font-weight: 100;
+  letter-spacing: 0.2em;
 }
 nav {
-        height: 50px;
-        margin-top: 28px;
-        font-family: 'Abel', sans-serif; 
-        text-transform: uppercase;
-        font-size: 36px;
-        letter-spacing: 0em;
-
+  height: 50px;
+  margin-top: 28px;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 0em;
 }
 nav a {
-        text-decoration: none;
-        color: #101010;
-        padding: .3em;
+  text-decoration: none;
+  color: #101010;
+  padding: 0.3em;
 }
 main {
-        margin-top: 3%;
+  margin-top: 3%;
 }
 
 /* section {
-        height: 70vh;
-} 
-llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
-.hero img {
-        width: 100%;
-        max-width: 1200px;
-        height: 100%;
-        margin-top: 50px;
+  height: 70vh;
+} */
+
+/* llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
+*/ .hero img {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin-top: 50px;
 }
 #about {
-       
-        background-color: #F0ECE0;
-        font-family: 'Abel', sans-serif;
-        font-size: 24px;
-        color: #101010;
-        text-align: center;
+  background-color: #f0ece0;
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
+  color: #101010;
+  text-align: center;
 }
 .about-p {
-        padding: 70px 50px;
+  padding: 70px 50px;
 }
 .about-visit {
-        margin-top: 30px;
+  margin-top: 30px;
 }
 
 .highlights-category-right {
-        font-family: 'Abel', sans-serif;
-        font-size: 40px;
-        color: #101010;
-        padding: 20px;
-        width: 250px;
-        text-align: right;
-        background-color: white;
-        top: 40%;
-        left: 10%;
-        transform: translate(30%, -10%);
-      
+  font-family: "Abel", sans-serif;
+  font-size: 40px;
+  color: #101010;
+  padding: 20px;
+  width: 250px;
+  text-align: right;
+  background-color: white;
+  top: 40%;
+  left: 10%;
+  transform: translate(30%, -10%);
 }
 .highlights-category-left {
-        font-family: 'Abel', sans-serif;
-        font-size: 40px;
-        color: #101010;
-        padding: 20px;
-        width: 250px;
-        text-align: left;
-        background-color: white;
-        top: 40%;
-        right: 10%;
-        transform: translate(-30%, 0%);
+  font-family: "Abel", sans-serif;
+  font-size: 40px;
+  color: #101010;
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  background-color: white;
+  top: 40%;
+  right: 10%;
+  transform: translate(-30%, 0%);
 }
 .highlights-noodle-soups {
-        margin-top: 50px;
+  margin-top: 50px;
 }
 .highlights-rice-dishes,
 .highlights-sandwiches,
 .highlights-desserts {
-        margin-top: 30px;
+  margin-top: 30px;
 }
 .highlights-photo {
-        height: 225px;
-        width: 800px;
+  height: 225px;
+  width: 800px;
 }
 .highlights-photo img {
-        height: 225px;
-        width: 800px;
-        object-position: 50% 50%;
-        object-fit: cover;
+  height: 225px;
+  width: 800px;
+  object-position: 50% 50%;
+  object-fit: cover;
 }
 .quotes {
-        font-family: 'Abel', sans-serif;
-        font-size: 26px;
-        color: #101010;
-        width: 600px;
+  font-family: "Abel", sans-serif;
+  font-size: 26px;
+  color: #101010;
+  width: 600px;
 }
 .quotations {
-        font-family: 'Scheherazade', serif;
-        font-size: 50px;
-        color: #101010;
-        border: 2px solid green;
+  font-family: "Scheherazade", serif;
+  font-size: 50px;
+  color: #101010;
+  border: 2px solid green;
 }
 .highlights-right {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .highlights-left {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .highlights-desserts .reviews-left,
 .highlights-rice-dishes .reviews-left {
-        text-align: center;
-        margin-left: 100px;
-
+  text-align: center;
+  margin-left: 100px;
 }
 
 .highlights-noodle-soups .reviews-right,
 .highlights-sandwiches .reviews-right {
-        text-align: center;
-        margin-left: 100px;
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 100px;
+  text-align: center;
+  margin-left: 100px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
 }
-#menu {
-        background-color: blue;
-}
-#footer {
+
+/* #menu {
+  background-color: blue;
+} */
+/* #footer {
         height: 100vh;
         background-color: red ;
+} */
+
+.menu-link-container {
+  display: flex;
+  width: auto;
+  position: relative;
+  justify-content: center;
+}
+
+.menu-link {
+  width: 1200px;
+  height: 275px;
+  background-color: #f0ece0;
+  margin-top: 3em;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-container {
+  width: 1200px;
+  height: 350px;
+  background-color: #b62222;
+}
+
+.branch-container {
+  width: 100%;
+}
+
+.branch {
+  width: 60px;
+  height: 350px;
 }
