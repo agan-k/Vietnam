@@ -68,6 +68,7 @@ llukkah - using this CSS section code messes with the styling of the about secti
         margin-top: 30px;
 }
 
+
 .highlights-category-right {
         font-family: 'Abel', sans-serif;
         font-size: 40px;
@@ -103,7 +104,9 @@ llukkah - using this CSS section code messes with the styling of the about secti
 }
 .highlights-photo {
         height: 225px;
-        width: 800px;
+        max-width: 800px;
+        width: 100%;
+
 }
 .highlights-photo img {
         height: 225px;
