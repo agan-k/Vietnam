@@ -16,6 +16,10 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
+#burger{
+    display: none;
+}
+
 header h1 {
   /* margin-right: .5em; */
   color: #b62222;
@@ -38,6 +42,10 @@ nav a {
   color: #101010;
   padding: 0.3em;
 }
+nav a:first-child{
+    display: none;
+}
+
 main {
   margin-top: 3%;
 }
@@ -218,13 +226,22 @@ main {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-columns: 10% 1fr 10%;
   width: 1200px;
   height: 375px;
   background-color: #b62222;
   font-weight: lighter;
   font-size: 20px;
   color: #f0ece0;
+}
+
+.restaurant-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .footer-heading {
@@ -253,7 +270,7 @@ main {
 }
 
 .services {
-  margin-top: 2.5em;
+  margin-top: .75em;
   font-size: 17px;
 }
 
@@ -270,7 +287,7 @@ main {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 -5%;
+  margin: 0 0 0 -35%;
 }
 
 .left-branch-container {
