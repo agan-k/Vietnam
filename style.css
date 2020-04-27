@@ -286,6 +286,7 @@ footer {
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
+
 }
 
 .branch-right-first {
@@ -294,7 +295,7 @@ footer {
   height: 375px;
   transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(-1);
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 
@@ -302,7 +303,7 @@ footer {
   margin: 0 -0.75em;
   width: 55px;
   height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(1);
+  transform: translate(55%, 0%) rotate(1deg) scaleY(1) scaleX(1);
   position: relative;
   z-index: 1;
 }
