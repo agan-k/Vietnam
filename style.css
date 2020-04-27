@@ -42,7 +42,7 @@ nav a {
   color: #101010;
   padding: 0.3em;
 }
-a:first-child{
+nav a:first-child{
     display: none;
 }
 
@@ -175,28 +175,32 @@ main {
 
 .menu-link {
   display: flex;
-  width: auto;
+  width: 100%;
   height: 250px;
   background-color: #f0ece0;
   margin-top: 3em;
   justify-content: center;
   position: relative;
-}
-
-.menu-link-holder{
-  background-color: #b62222;
-  height: 41px;
-  width: 151px;
-  align-self: center;
-  justify-content: center;
   text-align: center;
 }
 
-.menu-switch{
+.menu-link-holder {
+  display: flex;
+  background-color: #b62222;
+  height: 84px;
+  width: 304px;
+  text-align: center;
+  align-self: center;
+
+}
+
+.menu-switch {
+  color: #F8F8F8;
+  font-size: 40px;
+  margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  justify-content: center;
-  
+  align-self: center;
 }
 
 .menu-image {
@@ -224,13 +228,22 @@ main {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-columns: 10% 1fr 10%;
   width: 1200px;
   height: 375px;
   background-color: #b62222;
   font-weight: lighter;
   font-size: 20px;
   color: #f0ece0;
+}
+
+.restaurant-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .footer-heading {
@@ -240,8 +253,8 @@ main {
   border-bottom: 1px solid #101010;
 }
 
-.footer-text{
-  margin-bottom: .30em;
+.footer-text {
+  margin-bottom: 0.3em;
 }
 
 .hours {
@@ -255,11 +268,11 @@ main {
 .soup-icon {
   height: 100px;
   width: 100px;
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .services {
-  margin-top: 2.5em;
+  margin-top: .75em;
   font-size: 17px;
 }
 
@@ -276,7 +289,7 @@ main {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 .5em;
+  margin: 0 0 0 -35%;
 }
 
 .left-branch-container {
@@ -289,7 +302,6 @@ main {
   width: 55px;
   height: 375px;
   margin-right: 0.5em;
-  /* transform: rotate(1deg) scaleY(-1) scaleX(1); */
 }
 
 .branch-left-mid {
@@ -300,7 +312,7 @@ main {
 }
 
 .branch-right-first {
-  margin: 0 -0.75em 0 0.5em;
+  margin: 0 -0.75em 0 0;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
@@ -309,7 +321,7 @@ main {
 }
 
 .branch-right-mid {
-  margin: 0 -0.75em 0 -.4em;
+  margin: 0 -0.75em 0 -0.4em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
@@ -324,4 +336,3 @@ main {
   transform: translate(55%, 0%);
   position: relative;
 }
-
