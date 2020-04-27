@@ -79,48 +79,42 @@
         
     }
 
+    
 
-    /* .highlights {
+    .highlights-left,
+    .highlights-right {
       display: flex;
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
     }
-    .quotes {
-      max-width: 375px;
-      width: 375px;
-
-    } */
-/* 
-
-    .highlights-noodle-soups,
-    .highlights-rice-dishes,
-    .highlights-sandwiches,
-    .highlights-desserts {
+    .highlights-category-left,
+    .highlights-category-right {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      /* align-items: center; */
+      justify-content: center;
+      transform: unset;
+
+    }
+    .reviews-left {
+      margin-left: 0px;
+    }
+
+    .reviews-right {
+      margin-right: 0px;
+    }
+
+    /* .highlights-category-left p {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
     } */
 
-    /* .highlights-left,
-    .highlights-right,
-    .highlights-noodle-soups .reviews-right,
-    .highlights-sandwiches .reviews-right {
-      display: flex;
-      flex-direction: column;
-    } */
-
-      /* .quotes {
-
-      } */
-.highlights-category-right,
-.highlights-category-left {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
 
 }
-
-  }
 
   
 /* ======== iPad ========= */
