@@ -98,13 +98,32 @@
       transform: unset;
 
     }
-    .reviews-left {
+    /* .reviews-left */
+    .highlights-desserts .reviews-left,
+    .highlights-rice-dishes .reviews-left  {
       margin-left: 0px;
+      /* display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; */
     }
 
-    .reviews-right {
+    /* .reviews-right */
+    
+    .highlights-noodle-soups .reviews-right,
+    .highlights-sandwiches .reviews-right{
       margin-right: 0px;
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
+    /* .review-left p {
+      max-width: 375px;
+      width: 100%;
+    } */
 
     /* .highlights-category-left p {
       text-align: center;
