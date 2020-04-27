@@ -110,11 +110,15 @@ main {
 .highlights-photo-sandwiches {
   background-image: url("assets/images/Sandwiches.jpg");
   height: 23vh;
-  background-size: cover;
-  width: 800px;
-  object-position: 50% 50%;
-  object-fit: cover;
+  background-size: contain;
+  border: 2px solid red;
+  /* width: 800px; */
+  width: 100%;
+  
+  object-position: 30% 30%;
+  object-fit: fill;
   background-repeat: no-repeat;
+
 }
 .highlights-photo-rice-dishes {
   background-image: url("assets/images/RiceDishes.jpg");
@@ -136,17 +140,15 @@ main {
 
 }
 .quotes {
-  font-family: "Abel", sans-serif;
   font-size: 26px;
   color: #101010;
   width: 600px;
 }
 .quotations {
-        font-family: 'Courier', serif;
-        font-size: 50px;
-        font-weight: 700;
-        color: #101010;
-        border: 2px solid green;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #101010;
 }
 .highlights-right {
   display: flex;
