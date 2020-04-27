@@ -16,6 +16,10 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
+#burger{
+    display: none;
+}
+
 header h1 {
   /* margin-right: .5em; */
   color: #b62222;
@@ -38,6 +42,10 @@ nav a {
   color: #101010;
   padding: 0.3em;
 }
+a:first-child{
+    display: none;
+}
+
 main {
   margin-top: 3%;
 }
