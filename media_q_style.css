@@ -120,7 +120,18 @@
 
 }
 
+
+
+.menu-link-holder {
+  width: 70%;
+
   }
+
+  #footer {
+   grid-template-columns: 10% 15% 25% 20% 30%;
+    width: 100vw;
+
+}
 
   
 /* ======== iPad ========= */
