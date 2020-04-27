@@ -1,5 +1,3 @@
-
-
 let toggle = document.querySelector('#burger');
 let sidebar = document.querySelector('nav');
 
