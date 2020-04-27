@@ -16,6 +16,10 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
+#burger{
+    display: none;
+}
+
 header h1 {
   /* margin-right: .5em; */
   color: #b62222;
