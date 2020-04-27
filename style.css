@@ -97,26 +97,15 @@ main {
 .highlights-desserts {
   margin-top: 30px;
 }
-.highlights-photo-noodle-soups img {
-  /* background-image: url("assets/images/NoodleSoup.jpeg"); */
-  height: 23vh;
-  /* background-size: cover; */
-  max-width: 800px;
-  width: 800px;
-  /* object-position: 50% 50%; */
-  object-fit: fill;
-  /* background-repeat: no-repeat; */
-}
 .highlights-photo-noodle-soups,
 .highlights-photo-sandwiches,
 .highlights-photo-rice-dishes,
 .highlights-photo-desserts {
   height: 23vh;
-  border: 2px solid red;
   max-width: 100%;
   width: 800px;
 }
-/* .highlights-photo-noodle-soups img, */
+.highlights-photo-noodle-soups img,
 .highlights-photo-sandwiches img,
 .highlights-photo-rice-dishes img,
 .highlights-photo-desserts img {
@@ -124,6 +113,8 @@ main {
   height: 165px;
   max-width: 800px;
   height: 100%;
+  object-fit: cover;
+  height: 23vh;
 }
 .quotes {
   font-size: 26px;
