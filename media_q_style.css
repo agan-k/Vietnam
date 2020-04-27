@@ -1,35 +1,40 @@
 /* ======== iPhone X ========= */
 
 @media only screen and (max-width: 375px) {
-   
-    header {
-        height: 40px;
+        body {
+            padding-top: 4%;
+        }
+        
+        header {
+            /* background-color: red; */
+        height: 45px;    
         text-align: center;
         font-family: "Black Han Sans", sans-serif;
-      }
+    }
       
       header h1 {
-        margin: 10px 0 0 20px;
+        /* margin: 10px 0 0 20px; */
         color: #b62222;
         font-family: "Black Han Sans", sans-serif;
         text-transform: uppercase;
-        
         font-size: 35px;
         font-weight: 100;
         letter-spacing: 0.2em;
+        margin-left: 25px;
       }
       #burger {
+          display: block;
           font-size: 28px;
           text-decoration: none;
           color:  #101010;
           position: absolute;
-          top: 13px;
-          left: 10px;
+          top: 18px;
+          left: 15px;
       }
       nav {
         position: absolute;
         left: -400px;
-        top: 45px;
+        top: 25px;
         height: 100vh;
         width: 100vw;
         font-family: "Abel", sans-serif;
@@ -46,17 +51,81 @@
       nav a {
           display: block;
         text-decoration: none;
-        color: #101010;
-        padding: 0.3em;
+        color:  #101010;
+        position: absolute;
+        top: 13px;
+        left: 10px;
+    }
+    nav {
+      position: absolute;
+      left: -400px;
+      top: 45px;
+      height: 100vh;
+      width: 100vw;
+      font-family: "Abel", sans-serif;
+      text-transform: uppercase;
+      font-size: 36px;
+      letter-spacing: 0em;
+      text-align: left;
+      background-color: #F0ECE0;
+      transition: 0.7s;
+    }
+    nav.open {
+      left: 0;
+    }
+    nav a {
+      display: block;
+      text-decoration: none;
+      color: #101010;
+      padding: 0.3em;
         
-      }
+    }
+
+
+    /* .highlights {
+      display: flex;
+      flex-direction: column;
+    }
+    .quotes {
+      max-width: 375px;
+      width: 375px;
+
+    } */
+/* 
+
+    .highlights-noodle-soups,
+    .highlights-rice-dishes,
+    .highlights-sandwiches,
+    .highlights-desserts {
+      display: flex;
+      flex-direction: column;
+    } */
+
+    /* .highlights-left,
+    .highlights-right,
+    .highlights-noodle-soups .reviews-right,
+    .highlights-sandwiches .reviews-right {
+      display: flex;
+      flex-direction: column;
+    } */
+
+      /* .quotes {
+
+      } */
+.highlights-category-right,
+.highlights-category-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
 
   }
 
   
-/* ======== Tablet ========= */
-
-
+/* ======== iPad ========= */
   @media only screen and (max-width: 600px) {
     
 

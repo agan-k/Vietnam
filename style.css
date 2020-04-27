@@ -16,11 +16,12 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
-/* #burger{
-    height: 0;
-} */
+#burger{
+    display: none;
+}
 
 header h1 {
+  /* margin-right: .5em; */
   color: #b62222;
   font-family: "Black Han Sans", sans-serif;
   text-transform: uppercase;
@@ -50,11 +51,17 @@ main {
 } */
 
 /* llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
-*/ .hero img {
+.hero {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1092px;
   height: 100%;
-  margin-top: 50px;
+  object-fit: cover;
+  height: 70vh;
+}
+.hero img {
+  max-width: 1092px;
+  height: 70vh;
+  width: 100%;
 }
 #about {
   background-color: #f0ece0;
@@ -69,7 +76,6 @@ main {
 .about-visit {
   margin-top: 30px;
 }
-
 .highlights-category-right {
   font-family: "Abel", sans-serif;
   font-size: 40px;
@@ -102,27 +108,35 @@ main {
 .highlights-desserts {
   margin-top: 30px;
 }
-.highlights-photo {
-  height: 225px;
+.highlights-photo-noodle-soups,
+.highlights-photo-sandwiches,
+.highlights-photo-rice-dishes,
+.highlights-photo-desserts {
+  height: 23vh;
+  max-width: 100%;
   width: 800px;
 }
-.highlights-photo img {
-  height: 225px;
-  width: 800px;
-  object-position: 50% 50%;
+.highlights-photo-noodle-soups img,
+.highlights-photo-sandwiches img,
+.highlights-photo-rice-dishes img,
+.highlights-photo-desserts img {
+  width: 100%;
+  height: 165px;
+  max-width: 800px;
+  height: 100%;
   object-fit: cover;
+  height: 23vh;
 }
 .quotes {
-  font-family: "Abel", sans-serif;
   font-size: 26px;
   color: #101010;
-  width: 600px;
+  max-width: 600px;
 }
 .quotations {
-  font-family: "Scheherazade", serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 50px;
+  font-weight: 700;
   color: #101010;
-  border: 2px solid green;
 }
 .highlights-right {
   display: flex;
@@ -176,6 +190,21 @@ main {
   margin-top: 3em;
 }
 
+.menu-image {
+  height: 100%;
+  width: 76%;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+}
+
+.menu-image-container {
+  align-items: center;
+  margin-bottom: 3em;
+}
+
 footer {
   display: flex;
   width: 100%;
@@ -202,6 +231,10 @@ footer {
   border-bottom: 1px solid #101010;
 }
 
+.footer-text{
+  margin-bottom: .30em;
+}
+
 .hours {
   text-align: center;
 }
@@ -213,6 +246,7 @@ footer {
 .soup-icon {
   height: 100px;
   width: 100px;
+  margin-top: .5em;
 }
 
 .services {
@@ -233,6 +267,7 @@ footer {
   display: flex;
   width: 20%;
   height: 375px;
+  margin: 0 0 0 -1em;
 }
 
 .left-branch-container {
@@ -244,7 +279,8 @@ footer {
 .branch-left {
   width: 55px;
   height: 375px;
-  transform: rotate(1deg) scaleY(-1) scaleX(1);
+  margin-right: 0.5em;
+  /* transform: rotate(1deg) scaleY(-1) scaleX(1); */
 }
 
 .branch-left-mid {
@@ -254,31 +290,29 @@ footer {
   z-index: 1;
 }
 
+.branch-right-first {
+  margin: 0 -0.75em 0 0.5em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
+  z-index: 2;
+}
 
+.branch-right-mid {
+  margin: 0 -0.75em 0 -.4em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
+  z-index: 1;
+}
 
 .branch-right {
-  margin: 0 -0.75em;
+  margin: 0 -0.5em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
 }
 
-.branch-right-first {
-  margin: 0 -0.75em;
-  width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(-1);
-  position: relative;
-  z-index: 1;
-}
-
-
-.branch-right-mid {
-  margin: 0 -0.75em;
-  width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(1);
-  position: relative;
-  z-index: 1;
-}
