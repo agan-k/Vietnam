@@ -16,6 +16,10 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
+#burger{
+    display: none;
+}
+
 header h1 {
   /* margin-right: .5em; */
   color: #b62222;
@@ -38,6 +42,10 @@ nav a {
   color: #101010;
   padding: 0.3em;
 }
+nav a:first-child{
+    display: none;
+}
+
 main {
   margin-top: 3%;
 }
@@ -47,11 +55,17 @@ main {
 } */
 
 /* llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
-*/ .hero img {
+.hero {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1092px;
   height: 100%;
-  margin-top: 50px;
+  object-fit: cover;
+  height: 70vh;
+}
+.hero img {
+  max-width: 1092px;
+  height: 70vh;
+  width: 100%;
 }
 #about {
   background-color: #f0ece0;
@@ -66,7 +80,6 @@ main {
 .about-visit {
   margin-top: 30px;
 }
-
 .highlights-category-right {
   font-family: "Abel", sans-serif;
   font-size: 40px;
@@ -99,27 +112,35 @@ main {
 .highlights-desserts {
   margin-top: 30px;
 }
-.highlights-photo {
-  height: 225px;
+.highlights-photo-noodle-soups,
+.highlights-photo-sandwiches,
+.highlights-photo-rice-dishes,
+.highlights-photo-desserts {
+  height: 23vh;
+  max-width: 100%;
   width: 800px;
 }
-.highlights-photo img {
-  height: 225px;
-  width: 800px;
-  object-position: 50% 50%;
+.highlights-photo-noodle-soups img,
+.highlights-photo-sandwiches img,
+.highlights-photo-rice-dishes img,
+.highlights-photo-desserts img {
+  width: 100%;
+  height: 165px;
+  max-width: 800px;
+  height: 100%;
   object-fit: cover;
+  height: 23vh;
 }
 .quotes {
-  font-family: "Abel", sans-serif;
   font-size: 26px;
   color: #101010;
-  width: 600px;
+  max-width: 600px;
 }
 .quotations {
-  font-family: "Scheherazade", serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 50px;
+  font-weight: 700;
   color: #101010;
-  border: 2px solid green;
 }
 .highlights-right {
   display: flex;
@@ -150,30 +171,52 @@ main {
   margin-right: 100px;
 }
 
-/* #menu {
-  background-color: blue;
-} */
-/* #footer {
-        height: 100vh;
-        background-color: red ;
-} */
-
-.menu-link-container {
-  display: flex;
-  width: auto;
-  position: relative;
-  justify-content: center;
-  position: relative;
-}
-
 .menu-link {
-  width: 1200px;
+  display: flex;
+  width: 100%;
   height: 250px;
   background-color: #f0ece0;
   margin-top: 3em;
+  justify-content: center;
+  position: relative;
+  text-align: center;
 }
 
-footer {
+.menu-link-holder {
+  display: flex;
+  background-color: #b62222;
+  height: 84px;
+  width: 304px;
+  text-align: center;
+  align-self: center;
+
+}
+
+.menu-switch {
+  color: #F8F8F8;
+  font-size: 40px;
+  margin: 0 auto;
+  text-decoration: none;
+  text-align: center;
+  align-self: center;
+}
+
+.menu-image {
+  height: 100%;
+  width: 76%;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+}
+
+.menu-image-container {
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+#footer {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -183,7 +226,7 @@ footer {
 
 .footer-container {
   display: grid;
-  grid-template-columns: 15% 1fr 1fr 1fr 15%;
+  grid-template-columns: 10% 1fr 10%;
   width: 1200px;
   height: 375px;
   background-color: #b62222;
@@ -192,11 +235,24 @@ footer {
   color: #f0ece0;
 }
 
+.restaurant-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+
+}
+
 .footer-heading {
   font-size: 22px;
   margin: 3em 1em 0.4em 1em;
   padding-bottom: 0.2em;
   border-bottom: 1px solid #101010;
+}
+
+.footer-text {
+  margin-bottom: 0.3em;
 }
 
 .hours {
@@ -210,10 +266,11 @@ footer {
 .soup-icon {
   height: 100px;
   width: 100px;
+  margin-top: 0.5em;
 }
 
 .services {
-  margin-top: 2.5em;
+  margin-top: .75em;
   font-size: 17px;
 }
 
@@ -230,6 +287,7 @@ footer {
   display: flex;
   width: 20%;
   height: 375px;
+  margin: 0 0 0 -35%;
 }
 
 .left-branch-container {
@@ -241,7 +299,7 @@ footer {
 .branch-left {
   width: 55px;
   height: 375px;
-  transform: rotate(1deg) scaleY(-1) scaleX(1);
+  margin-right: 0.5em;
 }
 
 .branch-left-mid {
@@ -251,31 +309,28 @@ footer {
   z-index: 1;
 }
 
-
-
-.branch-right {
-  margin: 0 -0.75em;
+.branch-right-first {
+  margin: 0 -0.75em 0 0;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
+  z-index: 2;
 }
-
-.branch-right-first {
-  margin: 0 -0.75em;
-  width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(-1);
-  position: relative;
-  z-index: 1;
-}
-
 
 .branch-right-mid {
-  margin: 0 -0.75em;
+  margin: 0 -0.75em 0 -0.4em;
   width: 55px;
   height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(1);
+  transform: translate(55%, 0%);
   position: relative;
   z-index: 1;
+}
+
+.branch-right {
+  margin: 0 -0.5em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
 }
