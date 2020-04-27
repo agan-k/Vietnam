@@ -133,7 +133,6 @@ main {
   object-position: 50% 50%;
   object-fit: cover;
   background-repeat: no-repeat;
-
 }
 .quotes {
   font-family: "Abel", sans-serif;
@@ -142,11 +141,11 @@ main {
   width: 600px;
 }
 .quotations {
-        font-family: 'Scheherazade', serif;
-        font-size: 50px;
-        font-weight: 700;
-        color: #101010;
-        border: 2px solid green;
+  font-family: "Scheherazade", serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #101010;
+  border: 2px solid green;
 }
 .highlights-right {
   display: flex;
@@ -198,6 +197,21 @@ main {
   height: 250px;
   background-color: #f0ece0;
   margin-top: 3em;
+}
+
+.menu-image {
+  height: 100%;
+  width: 76%;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+}
+
+.menu-image-container {
+  align-items: center;
+  margin-bottom: 3em;
 }
 
 footer {
@@ -268,7 +282,8 @@ footer {
 .branch-left {
   width: 55px;
   height: 375px;
-  transform: rotate(1deg) scaleY(-1) scaleX(1);
+  margin-right: 1em;
+  /* transform: rotate(1deg) scaleY(-1) scaleX(1); */
 }
 
 .branch-left-mid {
@@ -278,32 +293,28 @@ footer {
   z-index: 1;
 }
 
-
-
 .branch-right {
   margin: 0 -0.75em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
-
 }
 
 .branch-right-first {
   margin: 0 -0.75em;
   width: 55px;
   height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(-1);
+  transform: translate(55%, 0%);
   position: relative;
   z-index: 2;
 }
-
 
 .branch-right-mid {
   margin: 0 -0.75em;
   width: 55px;
   height: 375px;
-  transform: translate(55%, 0%) rotate(1deg) scaleY(1) scaleX(1);
+  transform: translate(55%, 0%);
   position: relative;
   z-index: 1;
 }
