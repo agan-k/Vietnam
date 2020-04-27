@@ -48,10 +48,16 @@ main {
 
 /* llukkah - using this CSS section code messes with the styling of the about section.  I'm assuming it's just a placeholder of css to distinguish the different sections of the page before stylings go in (?)*/
 .hero {
-  background-image: url("assets/images/HeroImage.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 1092px;
+  height: 100%;
+  object-fit: cover;
   height: 70vh;
+}
+.hero img {
+  max-width: 1092px;
+  height: 70vh;
+  width: 100%;
 }
 #about {
   background-color: #f0ece0;
