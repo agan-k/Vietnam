@@ -79,6 +79,13 @@
       padding: 0.3em;
         
     }
+    .highlights-category-right, 
+    .highlights-category-left {
+      font-size: 30px;
+    }
+    .highlights-noodle-soups {
+      margin-top: 0;
+    }
     .highlights-left,
     .highlights-right {
       display: flex;
@@ -112,6 +119,7 @@
     .highlights-photo-rice-dishes,
     .highlights-photo-desserts {
       max-width: 375px;
+      width: 375;
     }
     .highlights-photo-noodle-soups img,
     .highlights-photo-sandwiches img,
@@ -120,7 +128,34 @@
       /* height: 23vh; */
       max-width: 375px;
       width: 100%;
-}
+    }
+    .quotes,
+    .quotations,
+    #about {
+      font-size: 15px;
+    }
+    .hero img {
+      /* object-fit: cover; */
+      width: 100%;
+      max-width: 375px;
+      height: 20vh;
+    }
+    .hero {
+      height: 20vh;
+    }
+
+    #about {
+      width: 100%;
+      max-width: 375px;
+    }
+    .about-p {
+      padding: 20px 10px;
+    }
+
+    /* body {
+      margin: 0;
+    } */
+
 
 
 }
