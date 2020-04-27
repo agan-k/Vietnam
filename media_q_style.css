@@ -99,6 +99,13 @@
       flex-direction: row;
       justify-content: center;
       transform: unset;
+      padding-top: 0px;
+    }
+    .highlights-category-left p,
+    .highlights-category-right p,
+    .highlights-category-right {
+      font-size: 20px;
+
     }
     .highlights-desserts .reviews-left,
     .highlights-rice-dishes .reviews-left  {
@@ -130,12 +137,13 @@
       width: 100%;
     }
     .quotes,
-    .quotations,
-    #about {
-      font-size: 15px;
+    .quotations {
+      font-size: 13px;
+    }
+    .quotes {
+      margin-top: 10px;
     }
     .hero img {
-      /* object-fit: cover; */
       width: 100%;
       max-width: 375px;
       height: 20vh;
@@ -143,19 +151,15 @@
     .hero {
       height: 20vh;
     }
-
     #about {
       width: 100%;
       max-width: 375px;
+      font-size: 15px;
+      margin-bottom: 10px;
     }
     .about-p {
       padding: 20px 10px;
     }
-
-    /* body {
-      margin: 0;
-    } */
-
 
 
 }
