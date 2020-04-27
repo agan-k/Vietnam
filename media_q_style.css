@@ -157,6 +157,9 @@
       max-width: 375px;
       font-size: 15px;
       margin-bottom: 10px;
+      /* padding-left: 45px;
+      padding-right: 45px;
+      margin-left: 0; */
     }
     .about-p {
       padding: 20px 10px;
