@@ -1,7 +1,12 @@
-let toggle = document.querySelector('#burger');
+let burger = document.querySelector('#burger');
+let x = document.querySelector('#x');
 let sidebar = document.querySelector('nav');
 
-toggle.addEventListener('click', function(e) {
+burger.addEventListener('click', function (e) {
+    e.preventDefault();
+    sidebar.classList.toggle('open');
+});
+x.addEventListener('click', function (e) {
     e.preventDefault();
     sidebar.classList.toggle('open');
 });
