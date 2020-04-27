@@ -85,7 +85,8 @@ main {
   font-size: 40px;
   color: #101010;
   padding: 20px;
-  width: 250px;
+  /* width: 250px; */
+  width: 275px;
   text-align: right;
   background-color: white;
   top: 40%;

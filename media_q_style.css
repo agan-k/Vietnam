@@ -127,12 +127,13 @@
     .highlights-photo-desserts {
       max-width: 375px;
       width: 375;
+      height: 25vh;
     }
     .highlights-photo-noodle-soups img,
     .highlights-photo-sandwiches img,
     .highlights-photo-rice-dishes img,
     .highlights-photo-desserts img {
-      /* height: 23vh; */
+      height: 25vh;
       max-width: 375px;
       width: 100%;
     }
