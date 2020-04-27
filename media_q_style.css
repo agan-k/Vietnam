@@ -22,6 +22,7 @@
         margin-left: 25px;
       }
       #burger {
+        display: block;
           font-size: 28px;
           text-decoration: none;
           color:  #101010;
@@ -106,14 +107,54 @@
       align-items: center;
     }
 
+    .highlights-photo-noodle-soups,
+    .highlights-photo-sandwiches,
+    .highlights-photo-rice-dishes,
+    .highlights-photo-desserts {
+      max-width: 375px;
+    }
+    .highlights-photo-noodle-soups img,
+    .highlights-photo-sandwiches img,
+    .highlights-photo-rice-dishes img,
+    .highlights-photo-desserts img {
+      /* height: 23vh; */
+      max-width: 375px;
+      width: 100%;
+}
 
 
 }
 
   
 /* ======== iPad ========= */
-  @media only screen and (max-width: 600px) {
+  /* @media only screen and (min-width: 600px) {
     
+    .highlights-left,
+    .highlights-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .highlights-category-left,
+    .highlights-category-right {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      transform: unset;
+    }
+    .highlights-desserts .reviews-left,
+    .highlights-rice-dishes .reviews-left  {
+      margin-left: 0px;
+    }
+    .highlights-noodle-soups .reviews-right,
+    .highlights-sandwiches .reviews-right{
+      margin-right: 0px;
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
-
-  }
+  } */
