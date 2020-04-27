@@ -85,7 +85,8 @@ main {
   font-size: 40px;
   color: #101010;
   padding: 20px;
-  width: 250px;
+  /* width: 250px; */
+  width: 275px;
   text-align: right;
   background-color: white;
   top: 40%;
@@ -117,8 +118,10 @@ main {
 .highlights-photo-rice-dishes,
 .highlights-photo-desserts {
   height: 23vh;
-  max-width: 100%;
-  width: 800px;
+  /* max-width: 100%;
+  width: 800px; */
+  max-width: 800px;
+  width: 100%;
 }
 .highlights-photo-noodle-soups img,
 .highlights-photo-sandwiches img,
