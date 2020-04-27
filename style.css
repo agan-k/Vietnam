@@ -230,6 +230,10 @@ footer {
   border-bottom: 1px solid #101010;
 }
 
+.footer-text{
+  margin-bottom: .30em;
+}
+
 .hours {
   text-align: center;
 }
@@ -241,6 +245,7 @@ footer {
 .soup-icon {
   height: 100px;
   width: 100px;
+  margin-top: .5em;
 }
 
 .services {
@@ -261,6 +266,7 @@ footer {
   display: flex;
   width: 20%;
   height: 375px;
+  margin: 0 0 0 -1em;
 }
 
 .left-branch-container {
@@ -283,14 +289,6 @@ footer {
   z-index: 1;
 }
 
-.branch-right {
-  margin: 0 -0.5em;
-  width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%);
-  position: relative;
-}
-
 .branch-right-first {
   margin: 0 -0.75em 0 0.5em;
   width: 55px;
@@ -301,10 +299,19 @@ footer {
 }
 
 .branch-right-mid {
-  margin: 0 -0.75em 0 0.01em;
+  margin: 0 -0.75em 0 -.4em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
   z-index: 1;
 }
+
+.branch-right {
+  margin: 0 -0.5em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
+}
+
