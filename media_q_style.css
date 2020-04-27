@@ -117,7 +117,7 @@
     .highlights-photo-sandwiches img,
     .highlights-photo-rice-dishes img,
     .highlights-photo-desserts img {
-      /* height: 23vh; */
+      height: 23vh;
       max-width: 375px;
       width: 100%;
 }
