@@ -2,9 +2,8 @@
 
 @media only screen and (max-width: 375px) {
    
-    header {
-        height: 40px;
 
+        ka-mobile-nav
         text-align: center;
         font-family: "Black Han Sans", sans-serif;
       }
@@ -52,12 +51,11 @@
         
       }
 
+
   }
 
   
-/* ======== Tablet ========= */
-
-
+/* ======== iPad ========= */
   @media only screen and (max-width: 600px) {
     
 
