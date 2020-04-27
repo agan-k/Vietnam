@@ -2,8 +2,9 @@
 
 @media only screen and (max-width: 375px) {
    
-
-        ka-mobile-nav
+  header {
+    height: 40px;
+    /* display: flex; */  
         text-align: center;
         font-family: "Black Han Sans", sans-serif;
       }

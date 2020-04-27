@@ -17,6 +17,7 @@ header {
 }
 
 header h1 {
+  /* margin-right: .5em; */
   color: #b62222;
   font-family: "Black Han Sans", sans-serif;
   text-transform: uppercase;
@@ -122,7 +123,7 @@ main {
   width: 600px;
 }
 .quotations {
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #101010;
@@ -220,6 +221,10 @@ footer {
   border-bottom: 1px solid #101010;
 }
 
+.footer-text{
+  margin-bottom: .30em;
+}
+
 .hours {
   text-align: center;
 }
@@ -231,6 +236,7 @@ footer {
 .soup-icon {
   height: 100px;
   width: 100px;
+  margin-top: .5em;
 }
 
 .services {
@@ -251,6 +257,7 @@ footer {
   display: flex;
   width: 20%;
   height: 375px;
+  margin: 0 0 0 -1em;
 }
 
 .left-branch-container {
@@ -262,7 +269,7 @@ footer {
 .branch-left {
   width: 55px;
   height: 375px;
-  margin-right: 1em;
+  margin-right: 0.5em;
   /* transform: rotate(1deg) scaleY(-1) scaleX(1); */
 }
 
@@ -273,16 +280,8 @@ footer {
   z-index: 1;
 }
 
-.branch-right {
-  margin: 0 -0.75em;
-  width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%);
-  position: relative;
-}
-
 .branch-right-first {
-  margin: 0 -0.75em;
+  margin: 0 -0.75em 0 0.5em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
@@ -291,10 +290,19 @@ footer {
 }
 
 .branch-right-mid {
-  margin: 0 -0.75em;
+  margin: 0 -0.75em 0 -.4em;
   width: 55px;
   height: 375px;
   transform: translate(55%, 0%);
   position: relative;
   z-index: 1;
 }
+
+.branch-right {
+  margin: 0 -0.5em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
+}
+
