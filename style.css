@@ -163,11 +163,12 @@ main {
   width: auto;
   position: relative;
   justify-content: center;
+  position: relative;
 }
 
 .menu-link {
   width: 1200px;
-  height: 275px;
+  height: 250px;
   background-color: #f0ece0;
   margin-top: 3em;
 }
@@ -177,19 +178,104 @@ footer {
   width: 100%;
   justify-content: center;
   height: 100%;
+  position: relative;
 }
 
 .footer-container {
+  display: grid;
+  grid-template-columns: 15% 1fr 1fr 1fr 15%;
   width: 1200px;
-  height: 350px;
+  height: 375px;
   background-color: #b62222;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #f0ece0;
 }
 
-.branch-container {
-  width: 100%;
+.footer-heading {
+  font-size: 22px;
+  margin: 3em 1em 0.4em 1em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #101010;
 }
 
-.branch {
-  width: 60px;
-  height: 350px;
+.hours {
+  text-align: center;
+}
+
+.address {
+  text-align: center;
+}
+
+.soup-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.services {
+  margin-top: 2.5em;
+  font-size: 17px;
+}
+
+.contact {
+  text-align: center;
+  font-weight: 100;
+}
+
+.social-media {
+  margin-top: 2em;
+}
+
+.right-branch-container {
+  display: flex;
+  width: 20%;
+  height: 375px;
+}
+
+.left-branch-container {
+  display: flex;
+  width: 20%;
+  height: 375px;
+}
+
+.branch-left {
+  width: 55px;
+  height: 375px;
+  transform: rotate(1deg) scaleY(-1) scaleX(1);
+}
+
+.branch-left-mid {
+  width: 55px;
+  height: 375px;
+  margin: 0 0 0 -1.5em;
+  z-index: 1;
+}
+
+
+
+.branch-right {
+  margin: 0 -0.75em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%);
+  position: relative;
+}
+
+.branch-right-first {
+  margin: 0 -0.75em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(-1);
+  position: relative;
+  z-index: 1;
+}
+
+
+.branch-right-mid {
+  margin: 0 -0.75em;
+  width: 55px;
+  height: 375px;
+  transform: translate(55%, 0%) rotate(1deg) scaleY(-1) scaleX(1);
+  position: relative;
+  z-index: 1;
 }
