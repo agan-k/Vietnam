@@ -133,5 +133,57 @@
 }
 
 /* ======== iPad ========= */
-@media only screen and (max-width: 600px) {
-}
+
+  @media only screen and (min-width: 768px) {
+    body {
+        font-family: "Abel", sans-serif;
+        width: 768px;
+        padding-top: 3%;
+        margin: 0 auto;
+        /* background-color: grey; */
+      }
+      
+      header {
+          height: 75px;
+          display: block;
+          /* background-color: red; */
+        /* display: flex;
+        justify-content: space-between; */
+        font-family: "Black Han Sans", sans-serif;
+      }
+      
+      #burger{
+          display: none;
+      }
+      
+      header h1 {
+        /* margin-right: .5em; */
+        color: #b62222;
+        font-family: "Black Han Sans", sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 55px;
+        font-weight: 100;
+        letter-spacing: 0.2em;
+      }
+      nav {
+        height: 50px;
+        margin-top: 0;
+        font-family: "Abel", sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 36px;
+        letter-spacing: 0em;
+      }
+      nav a {
+        text-decoration: none;
+        color: #101010;
+        padding: 0.3em;
+      }
+      a:first-child{
+          display: none;
+      }
+
+
+  }
+
