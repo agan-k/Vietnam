@@ -16,8 +16,8 @@ header {
   font-family: "Black Han Sans", sans-serif;
 }
 
-#burger{
-    display: none;
+#burger {
+  display: none;
 }
 
 header h1 {
@@ -42,9 +42,14 @@ nav a {
   color: #101010;
   padding: 0.3em;
 }
-nav a:first-child{
-    display: none;
+
+#x {
+  display: none;
 }
+
+/* nav a:nth-child(1) {
+  display: none;
+} */
 
 main {
   margin-top: 3%;
@@ -151,20 +156,17 @@ main {
   justify-content: flex-end;
   align-items: center;
 }
-
 .highlights-left {
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
   align-items: center;
 }
-
 .highlights-desserts .reviews-left,
 .highlights-rice-dishes .reviews-left {
   text-align: center;
   margin-left: 100px;
 }
-
 .highlights-noodle-soups .reviews-right,
 .highlights-sandwiches .reviews-right {
   text-align: center;
@@ -192,11 +194,10 @@ main {
   width: 304px;
   text-align: center;
   align-self: center;
-
 }
 
 .menu-switch {
-  color: #F8F8F8;
+  color: #f8f8f8;
   font-size: 40px;
   margin: 0 auto;
   text-decoration: none;
@@ -238,13 +239,12 @@ main {
   color: #f0ece0;
 }
 
-.restaurant-info{
+.restaurant-info {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   justify-content: center;
   text-align: center;
-
 }
 
 .footer-heading {
@@ -273,7 +273,7 @@ main {
 }
 
 .services {
-  margin-top: .75em;
+  margin-top: 0.75em;
   font-size: 17px;
 }
 
@@ -290,7 +290,7 @@ main {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 -35%;
+  margin: 0 0 0 -85%;
 }
 
 .left-branch-container {
