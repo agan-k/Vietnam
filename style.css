@@ -205,9 +205,14 @@ main {
   align-self: center;
 }
 
+#home-link {
+  text-decoration: none;
+}
+
 .menu-image {
   height: 100%;
   width: 100%;
+  transition: width 2s, height 2s;
 }
 
 .menu {
@@ -249,7 +254,7 @@ main {
 
 .footer-heading {
   font-size: 22px;
-  margin: 3em 1em 0.4em 1em;
+  margin: 3em 3em 0.4em 3em;
   padding-bottom: 0.2em;
   border-bottom: 1px solid #101010;
 }
@@ -290,7 +295,7 @@ main {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 -85%;
+  margin: 0 0 0 -45%;
 }
 
 .left-branch-container {

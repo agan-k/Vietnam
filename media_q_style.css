@@ -159,6 +159,14 @@
     height: 100%;
   }
 
+  .footer-heading {
+    margin: 2em 5em .4em 5em;
+  }
+
+  .hours{
+    margin-top: 1.5em;
+  }
+
   .restaurant-info {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -263,7 +271,6 @@
   .highlights-photo-sandwiches,
   .highlights-photo-rice-dishes,
   .highlights-photo-desserts {
-
     height: 25vh;
   }
   .highlights-photo-noodle-soups img,
@@ -279,5 +286,43 @@
   }
   .quotes {
     margin-top: 10px;
+  }
+
+  .menu-link-holder {
+    width: 40%;
+  }
+
+  .menu-switch {
+    font-size: 24px;
+  }
+
+  #footer {
+    width: 100%;
+  }
+
+  .footer-heading {
+    margin: 1em 14em .4em 14em;
+  }
+
+  .hours{
+    margin-top: 1.5em;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    height: 100%;
+  }
+
+  .restaurant-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .left-branch-container {
+    display: none;
+  }
+
+  .right-branch-container {
+    display: none;
   }
 }
