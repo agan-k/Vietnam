@@ -1,26 +1,23 @@
 /* ======== iPhone X ========= */
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 750px) and (-webkit-min-device-pixel-ratio: 3) {
   body {
+    width: 100%;
     padding-top: 4%;
   }
-
   header {
-    /* background-color: red; */
     height: 45px;
     text-align: center;
     font-family: "Black Han Sans", sans-serif;
   }
-
   header h1 {
-    /* margin: 10px 0 0 20px; */
     color: #b62222;
     font-family: "Black Han Sans", sans-serif;
     text-transform: uppercase;
     font-size: 35px;
     font-weight: 100;
     letter-spacing: 0.2em;
-    margin-left: 25px;
+    margin-left: 75px;
   }
   #burger {
     display: block;
@@ -31,7 +28,6 @@
     top: 18px;
     left: 15px;
   }
-
   nav {
     position: absolute;
     margin-top: 0;
@@ -56,49 +52,95 @@
     color: #101010;
     padding: 0.8em;
   }
-  a:nth-child(1) {
+  #x {
     display: block;
   }
   a:nth-child(2) {
     display: none;
   }
 
-  /* .highlights {
-      display: flex;
-      flex-direction: column;
-    }
-    .quotes {
-      max-width: 375px;
-      width: 375px;
-
-    } */
-  /* 
-
-    .highlights-noodle-soups,
-    .highlights-rice-dishes,
-    .highlights-sandwiches,
-    .highlights-desserts {
-      display: flex;
-      flex-direction: column;
-    } */
-
-  /* .highlights-left,
-    .highlights-right,
-    .highlights-noodle-soups .reviews-right,
-    .highlights-sandwiches .reviews-right {
-      display: flex;
-      flex-direction: column;
-    } */
-
-  /* .quotes {
-
-      } */
   .highlights-category-right,
   .highlights-category-left {
+    font-size: 30px;
+  }
+  .highlights-noodle-soups {
+    margin-top: 0;
+  }
+  .highlights-left,
+  .highlights-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .highlights-category-left,
+  .highlights-category-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transform: unset;
+    padding-top: 0px;
+  }
+  .highlights-category-left p,
+  .highlights-category-right p,
+  .highlights-category-right {
+    font-size: 20px;
+  }
+  .highlights-desserts .reviews-left,
+  .highlights-rice-dishes .reviews-left {
+    margin-left: 0px;
+  }
+  .highlights-noodle-soups .reviews-right,
+  .highlights-sandwiches .reviews-right {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .highlights-photo-noodle-soups,
+  .highlights-photo-sandwiches,
+  .highlights-photo-rice-dishes,
+  .highlights-photo-desserts {
+    max-width: 375px;
+    width: 375;
+    height: 25vh;
+  }
+  .highlights-photo-noodle-soups img,
+  .highlights-photo-sandwiches img,
+  .highlights-photo-rice-dishes img,
+  .highlights-photo-desserts img {
+    height: 25vh;
+    max-width: 375px;
+    width: 100%;
+  }
+  .quotes,
+  .quotations {
+    font-size: 13px;
+  }
+  .quotes {
+    margin-top: 10px;
+  }
+  .hero img {
+    width: 100%;
+    max-width: 375px;
+    height: 20vh;
+  }
+  .hero {
+    height: 20vh;
+  }
+  #about {
+    width: 100%;
+    max-width: 375px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    /* padding-left: 45px;
+      padding-right: 45px;
+      margin-left: 0; */
+  }
+  .about-p {
+    padding: 20px 10px;
   }
 
   .menu-link-holder {
@@ -134,56 +176,55 @@
 
 /* ======== iPad ========= */
 
-  @media only screen and (min-width: 768px) {
-    body {
-        font-family: "Abel", sans-serif;
-        width: 768px;
-        padding-top: 3%;
-        margin: 0 auto;
-        /* background-color: grey; */
-      }
-      
-      header {
-          height: 75px;
-          display: block;
-          /* background-color: red; */
-        /* display: flex;
-        justify-content: space-between; */
-        font-family: "Black Han Sans", sans-serif;
-      }
-      
-      #burger{
-          display: none;
-      }
-      
-      header h1 {
-        /* margin-right: .5em; */
-        color: #b62222;
-        font-family: "Black Han Sans", sans-serif;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 55px;
-        font-weight: 100;
-        letter-spacing: 0.2em;
-      }
-      nav {
-        height: 50px;
-        margin-top: 0;
-        font-family: "Abel", sans-serif;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 36px;
-        letter-spacing: 0em;
-      }
-      nav a {
-        text-decoration: none;
-        color: #101010;
-        padding: 0.3em;
-      }
-      a:first-child{
-          display: none;
-      }
-
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-family: "Abel", sans-serif;
+    width: 100%;
+    padding-top: 3%;
+    margin: 0 auto;
+  }
+  header {
+    height: 75px;
+    display: block;
+    font-family: "Black Han Sans", sans-serif;
+  }
+  #burger {
+    /* display: none; */
+  }
+  header h1 {
+    color: #b62222;
+    font-family: "Black Han Sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 100;
+    letter-spacing: 0.2em;
+  }
+  nav {
+    height: 50px;
+    margin-top: 0;
+    font-family: "Abel", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0em;
+  }
+  nav a {
+    text-decoration: none;
+    color: #101010;
+    padding: 0.3em;
+  }
+  nav a:first-child {
+    display: none;
   }
 
+  .hero img {
+    width: 100%;
+    /* max-width: 375px; */
+    height: 370px;
+  }
+
+  .hero {
+    height: 370px;
+  }
+}
