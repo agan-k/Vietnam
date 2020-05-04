@@ -171,6 +171,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  #yelp{
+    display: inline-block;
+  }
 
   .soup-icon {
     height: 60px;
