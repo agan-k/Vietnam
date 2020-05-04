@@ -133,22 +133,25 @@ main {
 .highlights-photo-rice-dishes img,
 .highlights-photo-desserts img {
   width: 100%;
-  height: 165px;
+  /* height: 165px; */
+  height: 200px;
   max-width: 800px;
   height: 100%;
   object-fit: cover;
-  height: 23vh;
+  height: 26vh;
 }
 .quotes {
   font-size: 26px;
   color: #101010;
   max-width: 600px;
+  margin-top: 20px;
 }
 .quotations {
   font-family: "Catamaran", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #101010;
+  margin-top: 20px;
 }
 .highlights-right {
   display: flex;
