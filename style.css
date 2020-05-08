@@ -186,7 +186,7 @@ main {
   background-color: #f0ece0;
   margin-top: 3em;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   text-align: center;
 }
 
@@ -304,20 +304,21 @@ main {
 
 .left-branch-container {
   display: flex;
-  width: 20%;
+  width: 100%;
   height: 375px;
+  margin-left: 5%;
 }
 
 .branch-left {
   width: 55px;
   height: 375px;
-  margin-right: 1%;
+  margin-left: 30%;
 }
 
 .branch-left-mid {
   width: 55px;
   height: 375px;
-  margin: 0 0 0 -100%;
+  margin: 0 0 0 -75%;
   z-index: 1;
 }
 
@@ -343,5 +344,4 @@ main {
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
-
 }
