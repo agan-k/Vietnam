@@ -297,24 +297,24 @@ main {
 /*use % for margin*/
 .right-branch-container {
   display: flex;
-  width: 20%;
+  width: 100%;
   height: 375px;
-  padding-right: 2%;
-  /* margin: 0 0 0 -15%; */
+  /* padding-right: 2%; */
+  margin: 0 0 0 -30%;
 }
 
 .left-branch-container {
   display: flex;
   width: 100%;
   height: 375px;
-  padding-left: 2%;
+  margin: 0 -20% 0 15%;
   /* margin-left: 1%; */
 }
 
 .branch-left {
   width: 55px;
   height: 375px;
-  margin-left: 30%;
+  margin: 0 2% 0 30%;
 }
 
 .branch-left-mid {
@@ -325,7 +325,7 @@ main {
 }
 
 .branch-right-first {
-  margin: 0 -80% 0 0;
+  margin: 0 -20% 0 5%;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
@@ -333,7 +333,7 @@ main {
 }
 
 .branch-right-mid {
-  margin: 0 0 0 -60%;
+  margin: 0 2% 0 -5%;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
@@ -342,7 +342,7 @@ main {
 }
 
 .branch-right {
-  margin: 0 0 0 -100%;
+  margin: 0 2% 0 -15%;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
