@@ -229,17 +229,17 @@ main {
 }
 
 #footer {
-  display: flex;
+  /* display: flex;
   width: 100%;
   justify-content: center;
   height: 100%;
-  position: relative;
+  position: relative; */
 }
 
 .footer-container {
   display: grid;
   grid-template-columns: 10% 1fr 10%;
-  width: 1200px;
+  width: 100%;
   height: 375px;
   background-color: #b62222;
   font-weight: lighter;
