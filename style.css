@@ -299,14 +299,16 @@ main {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 -15%;
+  padding-right: 2%;
+  /* margin: 0 0 0 -15%; */
 }
 
 .left-branch-container {
   display: flex;
   width: 100%;
   height: 375px;
-  margin-left: 5%;
+  padding-left: 2%;
+  /* margin-left: 1%; */
 }
 
 .branch-left {
@@ -323,7 +325,7 @@ main {
 }
 
 .branch-right-first {
-  margin: 0 -100% 0 0;
+  margin: 0 -80% 0 0;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
@@ -331,7 +333,7 @@ main {
 }
 
 .branch-right-mid {
-  margin: 0 -100% 0 0;
+  margin: 0 0 0 -60%;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
@@ -340,7 +342,7 @@ main {
 }
 
 .branch-right {
-  margin: 0 -4%;
+  margin: 0 0 0 -100%;
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
