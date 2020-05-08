@@ -257,7 +257,7 @@ main {
 
 .footer-heading {
   font-size: 22px;
-  margin: 3em 3em 0.4em 3em;
+  margin: 3em 2em 0.4em 2em;
   padding-bottom: 0.2em;
   border-bottom: 1px solid #101010;
 }
@@ -288,17 +288,18 @@ main {
 .contact {
   text-align: center;
   font-weight: 100;
+  margin-left: -10%;
 }
 
 .social-media {
   margin-top: 2em;
 }
-
+/*use % for margin*/
 .right-branch-container {
   display: flex;
   width: 20%;
   height: 375px;
-  margin: 0 0 0 -45%;
+  margin: 0 0 0 -15%;
 }
 
 .left-branch-container {
@@ -310,38 +311,38 @@ main {
 .branch-left {
   width: 55px;
   height: 375px;
-  margin-right: 0.5em;
+  margin-right: 1%;
 }
 
 .branch-left-mid {
   width: 55px;
   height: 375px;
-  margin: 0 0 0 -1.5em;
+  margin: 0 0 0 -100%;
   z-index: 1;
 }
 
 .branch-right-first {
-  margin: 0 -0.75em 0 0;
+  margin: 0 -100% 0 0;
   width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%);
+  height: 100%;
+  /* transform: translate(55%, 0%); */
   position: relative;
   z-index: 2;
 }
 
 .branch-right-mid {
-  margin: 0 -0.75em 0 -0.4em;
+  margin: 0 -100% 0 0;
   width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%);
+  height: 100%;
+  /* transform: translate(55%, 0%); */
   position: relative;
   z-index: 1;
 }
 
 .branch-right {
-  margin: 0 -0.5em;
+  margin: 0 -4%;
   width: 55px;
-  height: 375px;
-  transform: translate(55%, 0%);
+  height: 100%;
+  /* transform: translate(55%, 0%); */
   position: relative;
 }

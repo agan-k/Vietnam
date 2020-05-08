@@ -163,6 +163,10 @@
     margin: 2em 5em 0.4em 5em;
   }
 
+  .contact {
+    margin-left: 0;
+  }    
+
   .hours {
     margin-top: 1.5em;
   }
@@ -312,7 +316,11 @@
   .footer-heading {
     margin: 1em 14em 0.4em 14em;
   }
-
+  
+  .contact {
+    margin-left: 0;
+  }  
+  
   .hours {
     margin-top: 1.5em;
   }
