@@ -326,7 +326,6 @@ main {
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
-  position: relative;
   z-index: 2;
 }
 
@@ -335,7 +334,7 @@ main {
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
-  position: relative;
+
   z-index: 1;
 }
 
@@ -344,5 +343,5 @@ main {
   width: 55px;
   height: 100%;
   /* transform: translate(55%, 0%); */
-  position: relative;
+
 }
